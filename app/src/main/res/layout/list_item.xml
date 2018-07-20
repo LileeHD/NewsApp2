@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353333"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/section_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Section" />
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:textAlignment="viewEnd"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            tools:text="Date" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:textSize="15sp"
+        tools:text="@string/long_string" />
+
+    <TextView
+        android:id="@+id/author_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C2C2C2"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:textAlignment="viewEnd"
+        android:textSize="15sp"
+        tools:text="Author(s)" />
+
+</LinearLayout>
